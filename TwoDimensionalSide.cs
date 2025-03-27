@@ -20,6 +20,11 @@ namespace GeometricShapesHomework
         {
             StartCoordinate = startCoordinate;
             EndCoordinate = endCoordinate;
+            Validate();
+        }
+        protected void Validate()
+        {
+            if (Length == 0) throw new InvalidSideException("Длина стороны фигуры должна быть больше нуля!");
         }
     }
 }
