@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeometricShapesHomework
 {
-    internal interface IGeometricShape<T>
+    internal interface Interface1
     {
-        double Square { get; }
-        int Dimension { get; }
     }
 }
