@@ -10,6 +10,6 @@ namespace GeometricShapesHomework
     {
         double Square { get; }
         int Dimension { get; }
-        List<Side> Sides { get; }
+        List<ISide<Coordinate>> Sides { get; }
     }
 }

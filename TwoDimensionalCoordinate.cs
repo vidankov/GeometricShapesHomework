@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeometricShapesHomework
 {
-    internal class TwoDimensionalCoordinate : OneDimensionCoordinate
+    internal class TwoDimensionalCoordinate : Coordinate
     {
         public double Y { get; }
         public TwoDimensionalCoordinate(double x, double y) : base(x)

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GeometricShapesHomework
 {
-    internal class OneDimensionCoordinate
+    internal class Coordinate
     {
         public double X { get; }
-        public OneDimensionCoordinate(double x)
+        public Coordinate(double x)
         {
             X = x; 
         }
