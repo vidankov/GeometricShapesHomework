@@ -24,7 +24,8 @@ namespace GeometricShapesHomework
         }
         protected void Validate()
         {
-            if (Length == 0) throw new InvalidSideException("Длина стороны фигуры должна быть больше нуля!");
+            if (Length == 0)
+                throw new InvalidSideException("Длина стороны фигуры должна быть больше нуля!");
         }
     }
 }
